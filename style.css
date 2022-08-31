@@ -209,7 +209,7 @@ footer span{
 }
 @media screen and (max-width: 415px) {
     body{
-        width: 100vw;
+        height: 100vh;
     }
     .header-container {
         margin: 0;
