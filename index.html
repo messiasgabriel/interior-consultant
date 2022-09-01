@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Interior Consultant</title>
 </head>
 <body>
@@ -12,14 +14,15 @@
         <div class="header-logo">
             <p>This Interior</p>
         </div>
-        <nav>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li>Home</li>
                 <li>Collection</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-        </nav>
+        </menu>
     </header>
     <main class="main-container">
         <div class="left-content">
@@ -50,5 +53,10 @@
             <p>created by <span>@messiasgabriel</span> - devChallenges.io</p>
         </div>
     </footer>
+    <script>
+        function clickMenu(){
+            itens.style.display = "block"
+        }
+    </script>
 </body>
 </html>
