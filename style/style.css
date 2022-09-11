@@ -14,6 +14,9 @@
     color: var(--cor2);
 }
 body{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 2%;
     background: var(--cor1);
 }
 h1, h2 {
@@ -32,9 +35,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1300px;
-    margin: 2% auto;
-    padding: 1%;
+    padding: 2.5%;
 }
 .header-container i{
     display: none;
@@ -49,14 +50,12 @@ img{
 }
 .header-container nav ul li {
     padding: 5px;
-    margin-left: 9%;
+    margin: 0 15%;
 }
 .header-container nav ul li:hover{
     border-bottom: 2px solid white;
 }
-nav{
-    width: 100%;
-}
+
 .header-logo{
     border: 2px solid white;
     font-size: 14px;
@@ -69,7 +68,7 @@ nav{
 /* Main */
 
 .main-container{
-    margin: 6% auto;
+    margin: 6% auto 0;
     max-width: 1300px;
     padding: 1%;
     display: flex;
@@ -81,20 +80,19 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 100px;
-    min-width: 38%;
+    padding: 0 2% 5% 2%;
 }
 .left-content h1 {
     font-size: 48px;
     line-height: 29px;
-    margin-bottom: 40px;
+    margin-bottom: 10%;
     font-weight: 500;
 }
 .left-content p{
     font-weight: 400;
     font-size: 24px;
     line-height: 29.26px;
-    padding: 44px 0;
+    padding: 15% 0;
 }
 .left-content a{
     font-family: var(--font-texto);
@@ -110,6 +108,7 @@ nav{
 .right-content {
     display: flex;
     flex-direction: column;
+    padding: 2%;
 }
 .imagem {
     max-width: 760px;
@@ -122,8 +121,9 @@ nav{
     background: var(--cor1);
     width: 400px;
     position: relative;
-    bottom: 86px;
-    left: 320px;
+    bottom: 10%;
+    left: 42%;
+    right: 10%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .card-content {
@@ -172,7 +172,7 @@ nav{
 
 footer{
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;    
     color: #A9A9A9;
@@ -182,7 +182,7 @@ footer span{
   color:blanchedalmond;
 }
 
-@media screen and (max-width: 1077px) {
+@media screen and (max-width: 1090px) {
     
     .header-logo {
         height: 2%;
@@ -203,8 +203,8 @@ footer span{
         flex-direction: column;
     }
     .card-container {
-        width: 300px;
-        left: 175px;
+        max-width: 300px;
+        left: 50%;
     }
     .card-nome h6 {
         font-size: 14px;
@@ -233,7 +233,6 @@ footer span{
     #btn{
         display: flex;
         position: relative;
-        left: 90%;
         padding: .5rem 1rem;
         font-size: 1rem;
         border: none;
@@ -269,9 +268,6 @@ footer span{
         display: block;
         margin: 0% auto 5% auto;
         width: 15%;
-    }
-    #nav.active #hamb{
-        
     }
     #nav.active #menu {
         height:  calc(100vh - 65px);
