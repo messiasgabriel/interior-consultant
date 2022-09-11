@@ -16,7 +16,7 @@
 body{
     max-width: 1330px;
     margin: 0 auto;
-    padding: 2%;
+    padding: 0% 2% 0 2%;
     background: var(--cor1);
 }
 h1, h2 {
@@ -68,7 +68,7 @@ img{
 /* Main */
 
 .main-container{
-    margin: 6% auto 0;
+    margin: 0 auto;
     max-width: 1300px;
     padding: 1%;
     display: flex;
