@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href=""  target="_blank">
+    <a href="https://github.com/messiasgabriel/interior-consultant"  target="_blank">
       Solution
     </a>
     <span> | </span>
@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/messiasgabriel/interior-consultant/main/img/Scheenshot.png)
 
 This is a Challenge from https://devchallenges.io/ 
 I'm learning web development. So I was able to test and improve my skills with this challenge ;)
@@ -42,7 +42,7 @@ I'm learning web development. So I was able to test and improve my skills with t
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
+- [JS] (https://www.javascript.com/)
 - [HTML](https://dev.w3.org/html5/spec-LC/)
 - [CSS](https://www.w3.org/Style/CSS/specs.en.html)
 
